@@ -8,14 +8,6 @@ import { Route, Routes, Link } from 'react-router-dom';
 export function App() {
   return (
     <div>
-      <NxWelcome title="front" />
-
-      {/* START: routes */}
-      {/* These routes and navigation have been generated for you */}
-      {/* Feel free to move and update them to fit your needs */}
-      <br />
-      <hr />
-      <br />
       <div role="navigation">
         <ul>
           <li>
@@ -32,7 +24,7 @@ export function App() {
           element={
             <div>
               This is the generated root route.{' '}
-              <Link to="/page-2">Click here for page 2.</Link>
+              <Link to="/page-2">ここ押すとPage２</Link>
             </div>
           }
         />
@@ -40,7 +32,7 @@ export function App() {
           path="/page-2"
           element={
             <div>
-              <Link to="/">Click here to go back to root page.</Link>
+              <Link to="/">ここ押すとRootPage</Link>
             </div>
           }
         />
